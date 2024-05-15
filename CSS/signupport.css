@@ -7,7 +7,10 @@
     top: 32%;
     width: 90%;
     height: 80vw;
-    overflow: hidden;
+/*     overflow: hidden; */
+    overflow-y: hidden;
+    overflow-x: scroll;
+    
 } 
 #area{
     height: 3vw;
@@ -16,7 +19,9 @@
     height: 1vw;
 }
 body{
-    overflow: hidden;
+/*     overflow: hidden; */
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 #anchor{
     margin-left: 6vw;
